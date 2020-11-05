@@ -1,0 +1,66 @@
+body {
+    background-color: #fdf8f2;
+    font-family: 'roboto condensed', sans-serif;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 50px;
+    font-weight: bold;
+    text-shadow: 3px 3px#c9c8c6;
+}
+
+h2 {
+    text-align: center;
+    font-weight: normal;
+    font-size: 16px;
+    margin-top: 50px;
+    color: #716b6c;
+}
+
+#logo {
+    background-image: url("logo.png");
+    float: left;
+    border: 1px solid black;
+    height: 173px;
+    width: 230px;
+    background-size: 100%;
+    margin-left: 572px;
+    margin-top: 30px;
+}
+
+#presentation {
+    background-image: url("presentation.png");
+    float: right;
+    border: 1px solid black;
+    height: 173px;
+    width: 230px;
+    background-size: 100%;
+    margin-right: 568px;
+    margin-top: 30px;
+}
+
+.foot {
+    background-color: #686868;
+    height: 160px;
+    margin-bottom: 0;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+#clickg {
+    float: left;
+    margin-left: 660px;
+    margin-top: 30px;
+    color: #716b6c;
+}
+
+#clickd {
+    float: right;
+    margin-right: 660px;
+    margin-top: 30px;
+    color: #716b6c;
+}
