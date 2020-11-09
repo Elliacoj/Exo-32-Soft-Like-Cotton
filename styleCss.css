@@ -21,23 +21,23 @@ h2 {
 
 #logo {
     background-image: url("logo.png");
-    float: left;
+    position: absolute;
     border: 1px solid black;
     height: 173px;
     width: 230px;
     background-size: 100%;
-    margin-left: 572px;
+    left: 30%;
     margin-top: 30px;
 }
 
 #presentation {
     background-image: url("presentation.png");
-    float: right;
+    position: absolute;
     border: 1px solid black;
     height: 173px;
     width: 230px;
     background-size: 100%;
-    margin-right: 568px;
+    right: 30%;
     margin-top: 30px;
 }
 
@@ -52,15 +52,15 @@ h2 {
 }
 
 #clickg {
-    float: left;
-    margin-left: 660px;
-    margin-top: 30px;
+    position: absolute;
+    left: 36.5%;
+    top: 65%;
     color: #716b6c;
 }
 
 #clickd {
-    float: right;
-    margin-right: 660px;
-    margin-top: 30px;
+    position: absolute;
+    right: 36.5%;
+    top: 65%;
     color: #716b6c;
 }
