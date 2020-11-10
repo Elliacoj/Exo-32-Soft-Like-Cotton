@@ -3,9 +3,15 @@ body {
     font-family: 'roboto condensed', sans-serif;
 }
 
+#cadre {
+    position: relative;
+    width: 1350px;
+    height: 750px;
+}
+
 h1 {
     text-align: center;
-    margin-top: 40px;
+    margin-top: 2%;
     font-size: 50px;
     font-weight: bold;
     text-shadow: 3px 3px#c9c8c6;
@@ -15,52 +21,41 @@ h2 {
     text-align: center;
     font-weight: normal;
     font-size: 16px;
-    margin-top: 50px;
+    margin-top: 5%;
     color: #716b6c;
 }
 
-#logo {
+#logo, #presentation {
+    width: 15%;
+    height: 21%;
     background-image: url("logo.png");
-    position: absolute;
+    background-size: cover;
     border: 1px solid black;
-    height: 173px;
-    width: 230px;
-    background-size: 100%;
-    left: 30%;
-    margin-top: 30px;
+    margin-top: 3%;
+    margin-left: 32.5%;
+    margin-bottom: 3%;
+    display: inline-block;
 }
 
 #presentation {
     background-image: url("presentation.png");
-    position: absolute;
-    border: 1px solid black;
-    height: 173px;
-    width: 230px;
-    background-size: 100%;
-    right: 30%;
-    margin-top: 30px;
+    margin-left: 4.3%;
+}
+
+#clickg {
+    margin-left: 38%;
+}
+
+#clickd {
+    margin-left: 16%;
 }
 
 .foot {
     background-color: #686868;
-    height: 160px;
+    height: 15%;
     margin-bottom: 0;
     position: absolute;
     bottom: 0;
     left: 0;
     right: 0;
-}
-
-#clickg {
-    position: absolute;
-    left: 36.5%;
-    top: 65%;
-    color: #716b6c;
-}
-
-#clickd {
-    position: absolute;
-    right: 36.5%;
-    top: 65%;
-    color: #716b6c;
 }
